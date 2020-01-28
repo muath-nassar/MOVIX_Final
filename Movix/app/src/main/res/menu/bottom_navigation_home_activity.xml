@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<item
+    android:id="@+id/navMovie"
+    android:title="Movies"
+    android:icon="@drawable/ic_movie_black_24dp"
+    />
+    <item android:title="Favorite"
+        android:id="@+id/navFavorite"
+        android:icon="@drawable/ic_favorite_black_for_menu_24dp"
+        />
+    <item
+        android:id="@+id/navHistory"
+        android:title="History"
+        android:icon="@drawable/ic_history_black_24dp"/>
+        <item
+            android:id="@+id/navProfile"
+            android:title="Profile"
+            android:icon="@drawable/ic_person_black_24dp"/>
+
+</menu>
